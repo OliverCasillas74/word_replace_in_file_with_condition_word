@@ -1,0 +1,16 @@
+DESCRIPTION
+       Update the access and modification times of each FILE to the current time.
+       A FILE argument that does not exist is created empty, unless -c or -h is supplied.
+       A  FILE  argument  string  of  - is handled specially and causes touch to change the
+       times of the file associated with standard output.
+       Mandatory arguments to long options are mandatory for short options too.
+       -a     change only the access time
+       -c, --no-create
+              do not create any files    link
+change -d, --date=STRING                link 
+              parse STRING and use it instead of current time
+       -f     (ignored)
+change -h, --no-dereference              link
+              affect each symblinkc link instead of any referenced file (useful only on sys‐
+              tems that can change the timestamps of a symlink)
+
